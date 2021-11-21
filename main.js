@@ -10,7 +10,7 @@ img_y = 100;
 
 function add(){
 	img_imgTag = new Image();
-	img_imgTag.onload = uploading();
+	img_imgTag.onload = uploading;
 	img_imgTag.src = img_image;
 }
 
